@@ -50,6 +50,10 @@ arr.reverse()
 print('arr.reverse() =', arr)
 
 
+#  Sum of List:
+nums = [3,7,34,98,23,76,12,38]
+print(*nums, sep = '+', end = f'={sum(nums)}\n')
+
 
 
 # __________________

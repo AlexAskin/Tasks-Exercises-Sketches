@@ -66,6 +66,18 @@ message = 'THIS IS A TESTING MESSAGE'
 print(message.capitalize())
 
 
+# Some Symbols...
+print('conruentzia')
 
+word = 'conruentzia\b'
+print('conruentzia\b_')
+
+print('\v','\f')
+
+c = input()
+print(c,'\a'*2)
+ 
+
+print("oooo\raaa")
 
 
