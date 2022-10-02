@@ -36,6 +36,22 @@ print('dobled2:',dobled2)
 
 
 
+# List.reverse():
+arr = [0,1,2,3,4,5,6,7,8,9]
+print('arr =', arr)
+
+sum_arr = 0
+for i in arr:
+    #print(i)
+    sum_arr += i
+
+print('sum arr:', sum_arr)
+arr.reverse()
+print('arr.reverse() =', arr)
+
+
+
+
 # __________________
 # for Random Number:
 import random
@@ -45,14 +61,6 @@ random_num = random.randint(a,b)  # a <= x <= b
 print(random_num)
 
 
-# ________________________________
-# for Divide a string to the list:
-string = "string"
-print(list(string)) #['s', 't', 'r', 'i', 'n', 'g']
 
 
-# _______________
-# Reverse string:
-string = "String"
-reversed_string = string[::-1]
-print(reversed_string) 
+
